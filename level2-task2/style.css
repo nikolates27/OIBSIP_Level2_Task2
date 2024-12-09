@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ffffff, #6c5b88);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #2E7D32;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #000000;
+}
+
+h2 {
+    color: #4CAF50;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.biography, .achievements, .gallery {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e7f3fe;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 32%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
